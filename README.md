@@ -34,35 +34,29 @@ python megascan.py -u <target_url>
 Example:
 
 python megascan.py -u testphp.vulnweb.com
-
 Progress bars will show crawling, banner grabbing, and parameter testing.
-
 Vulnerabilities, if any, are displayed in red.
 
-Results are saved automatically in:
+Results are saved automatically in :
+-reports/results.json
 
-reports/results.json
-
-Directory Structure
+Directory Structure :
 Mmxa77-scanner/
-│
-├─ megascan.py       
+megascan.py       
 ├─ config.py                     
 ├─ README.md
 ├─ requirements.txt               
-│
 ├─ utils/                         
-│  ├─ banner_grabber.py
-│  ├─ header_checker.py
-│  ├─ param_finder.py
-│  ├─ port_scanner.py
-│  ├─ reports.py
-│  ├─ tls_checker.py
-│  ├─ vuln_tests.py
-│  └─ web_crawler.py
-│
-└─ reports/
-   └─ results.json    
+banner_grabber.py
+header_checker.py
+param_finder.py
+port_scanner.py
+reports.py
+tls_checker.py
+vuln_tests.py
+web_crawler.py
+├─ reports/
+results.json    
    
 License :
 
