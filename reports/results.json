@@ -1,0 +1,29 @@
+{
+    "target": "testphp.vulnweb.com",
+    "scan_time": "2025-11-16T02:54:14.652081Z",
+    "open_ports": [
+        {
+            "port": 80,
+            "service": "HTTP",
+            "banner": null
+        }
+    ],
+    "http_headers": {
+        "url": "http://testphp.vulnweb.com",
+        "status_code": 200,
+        "present": {},
+        "missing": {
+            "Strict-Transport-Security": "Prevents SSL stripping attacks",
+            "X-Content-Type-Options": "Prevents MIME-type sniffing",
+            "Content-Security-Policy": "Mitigates XSS attacks",
+            "X-Frame-Options": "Prevents clickjacking",
+            "Referrer-Policy": "Controls referer data leakage"
+        },
+        "server_header": "nginx/1.19.0"
+    },
+    "tls": {
+        "error": "timed out"
+    },
+    "pages": [],
+    "vulnerabilities": []
+}
