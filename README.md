@@ -18,7 +18,7 @@ Features :
 Installation :
 
 1️⃣ Clone the repository
-git clone https://github.com/your-username/Mmxa77-scanner.git
+git clone https://github.com/Mmxa77-1/Mmxa77-scanner.git
 cd Mmxa77-scanner
 
 2️⃣ Create a virtual environment
