@@ -22,11 +22,13 @@ git clone https://github.com/Mmxa77-1/Mmxa77-scanner.git
 cd Mmxa77-scanner
 
 2️⃣ Create a virtual environment
-python3 -m venv scanner_venv
+python3 -m venv scanner_venv 
 source scanner_venv/bin/activate
 
 3️⃣ Install dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt 
+If the download of requirements.txt is failed Do This :
+pip install requests aiohttp bs4 colorama tqdm
 
 Usage :
 python megascan.py -u <target_url>
