@@ -38,25 +38,7 @@ Progress bars will show crawling, banner grabbing, and parameter testing.
 Vulnerabilities, if any, are displayed in red.
 
 Results are saved automatically in :
--reports/results.json
-
-Directory Structure :
-Mmxa77-scanner/
-megascan.py       
-├─ config.py                     
-├─ README.md
-├─ requirements.txt               
-├─ utils/                         
-banner_grabber.py
-header_checker.py
-param_finder.py
-port_scanner.py
-reports.py
-tls_checker.py
-vuln_tests.py
-web_crawler.py
-├─ reports/
-results.json    
+-reports/results.json 
    
 License :
 
